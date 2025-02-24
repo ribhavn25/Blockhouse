@@ -27,7 +27,7 @@ app = FastAPI()
 
 class OrderIn(BaseModel):
     symbol: str
-    price: float
+    revenue: float
     quantity: int
     order_type: str
 
