@@ -13,7 +13,7 @@ orders = sqlalchemy.Table(
     metadata,
     sqlalchemy.Column("id", sqlalchemy.Integer, primary_key=True),
     sqlalchemy.Column("symbol", sqlalchemy.String),
-    sqlalchemy.Column("price", sqlalchemy.Float),
+    sqlalchemy.Column("revenue", sqlalchemy.Float),
     sqlalchemy.Column("quantity", sqlalchemy.Integer),
     sqlalchemy.Column("order_type", sqlalchemy.String),
 )
