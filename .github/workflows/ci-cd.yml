@@ -12,12 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run tests
-        run: |
-          # Add your test commands here
-          # For example:
-          # npm install
-          # npm test
-
+        run: 
   build-and-deploy:
     needs: test
     runs-on: ubuntu-latest
